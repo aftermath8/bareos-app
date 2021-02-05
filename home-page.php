@@ -44,17 +44,17 @@
       <div class="listree-submenu-heading">DIRECTOR</div>
       <ul class="listree-submenu-items">
 
-        <!-- DIRECTOR/Client (server side) -->
+        <!-- Client (server side) -->
         <li>
           <div class="listree-submenu-heading">Client</div>
           <ul class="listree-submenu-items">
           <li>
-            <a href="">Client erstellen (Server side)</a>
+            <a href ='#' onclick="window.location.href='bareos-dir-ressources/job-ressources/create-job.php'">Client erstellen (Server side)</a>
           </li>
           </ul>
         </li>
 
-        <!-- DIRECTOR/File Set -->
+        <!-- File Set -->
         <li>
           <div class="listree-submenu-heading">File Set</div>
           <ul class="listree-submenu-items">
@@ -64,7 +64,7 @@
           </ul>
         </li>
 
-        <!-- DIRECTOR/Schedule -->
+        <!-- Schedule -->
         <li>
           <div class="listree-submenu-heading">Schedule</div>
           <ul class="listree-submenu-items">
@@ -74,12 +74,12 @@
           </ul>
         </li>
 
-        <!-- DIRECTOR/Pool -->
+        <!-- Pool -->
         <li>
           <div class="listree-submenu-heading">Pool</div>
           <ul class="listree-submenu-items">
 
-            <!-- DIRECTOR/Pool/Always Incremental Pool -->
+            <!-- Always Incremental Pool -->
             <li>
               <div class="listree-submenu-heading">Always Incremental</div>
               <ul class="listree-submenu-items">
@@ -89,7 +89,7 @@
               </ul>
             </li>
 
-            <!--DIRECTOR/Pool/Consolidate-Pool -->
+            <!--Consolidate-Pool -->
             <li>
               <div class="listree-submenu-heading">Consolidate</div>
               <ul class="listree-submenu-items">
@@ -99,7 +99,7 @@
               </ul>
             </li>
 
-            <!-- DIRECTOR/Pool/Long Term Pool -->
+            <!-- Long Term Pool -->
             <li>
               <div class="listree-submenu-heading">Long Term</div>
               <ul class="listree-submenu-items">
@@ -112,12 +112,12 @@
           </ul>
         </li>
 
-        <!-- DIRECTOR/Job -->
+        <!-- Job -->
         <li>
           <div class="listree-submenu-heading">Job</div>
           <ul class="listree-submenu-items">
 
-            <!-- DIRECTOR/Job/Classic Job -->
+            <!-- Classic Job -->
             <li>
               <div class="listree-submenu-heading">Classic</div>
               <ul class="listree-submenu-items">
@@ -127,7 +127,7 @@
               </ul>
             </li>
 
-            <!-- DIRECTOR/Job/Always Incremental Job -->
+            <!-- Always Incremental Job -->
             <li>
               <div class="listree-submenu-heading">Always Incremental</div>
               <ul class="listree-submenu-items">
@@ -137,7 +137,7 @@
               </ul>
             </li>
 
-            <!--DIRECTOR/Job/Consolidate Job -->
+            <!--Consolidate Job -->
             <li>
               <div class="listree-submenu-heading">Consolidate</div>
               <ul class="listree-submenu-items">
@@ -147,12 +147,11 @@
               </ul>
             </li>
 
-            <!-- DIRECTOR/Job/Long Term Job -->
+            <!-- Long Term Job -->
             <li>
               <div class="listree-submenu-heading">Long Term</div>
               <ul class="listree-submenu-items">
 
-              <!-- DIRECTOR/Job/Long Term Job/Copy Job -->
               <li>
                 <div class="listree-submenu-heading">Copy Job</div>
                 <ul class="listree-submenu-items">
@@ -162,7 +161,6 @@
                 </ul>
               </li>
 
-              <!-- DIRECTOR/Job/Long Term Job/Virtual Full -->
               <li>
                 <div class="listree-submenu-heading">Virtual Full</div>
                 <ul class="listree-submenu-items">
