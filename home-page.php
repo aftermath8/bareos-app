@@ -49,7 +49,7 @@
           <div class="listree-submenu-heading">Client</div>
           <ul class="listree-submenu-items">
           <li>
-            <a href ='#' onclick="window.location.href='bareos-dir-ressources/job-ressources/create-job.php'">Client erstellen (Server side)</a>
+            <a href ='#' onclick="window.location.href='bareos-dir-ressources/client-ressources/create-client.php'">Client erstellen (Server side)</a>
           </li>
           </ul>
         </li>
